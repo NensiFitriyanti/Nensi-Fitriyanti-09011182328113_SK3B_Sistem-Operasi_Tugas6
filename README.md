@@ -5,7 +5,9 @@
 ## NIM : 09011182328113
 
 Cara Memasang dan Mengonfigurasi SSH di Ubuntu 22.04
+
 Langkah 1: Persiapan Ubuntu
+
 Pertama, pastikan semua paket apt diperbarui ke versi terbaru. Gunakan perintah berikut untuk melakukan pembaruan:
 
 ![Screenshot from 2024-10-02 09-03-12](https://github.com/user-attachments/assets/0e06f01b-58e7-42cf-8e54-a62c7d2927d9)
