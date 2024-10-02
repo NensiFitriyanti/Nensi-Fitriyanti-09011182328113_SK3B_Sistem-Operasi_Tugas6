@@ -12,15 +12,17 @@ Pertama, pastikan semua paket apt diperbarui ke versi terbaru. Gunakan perintah 
 
 ![Screenshot from 2024-10-02 09-03-12](https://github.com/user-attachments/assets/0e06f01b-58e7-42cf-8e54-a62c7d2927d9)
 
+
 Langkah 2 Instal SSH Di UBUNTU;
 Jika OpenSSH belum terpasang, maka perlu diinstal secara manual. Jalankan perintah berikut untuk memulai proses instalasi:
 
 ![Screenshot from 2024-10-02 09-10-26](https://github.com/user-attachments/assets/32efa22f-7621-495e-bac0-30ecd7249e38)
 
-
 Proses instalasi akan berjalan, dan pastikan untuk menyetujui semua permintaan konfirmasi dari sistem dengan memilih "Ya". Setelah instalasi selesai, lanjut ke langkah berikutnya untuk mengaktifkan layanan SSH.
 
+
 Langkah 3 Jalankan SSH;
+
 Setelah instalasi selesai, aktifkan layanan SSH yang baru terpasang dengan menjalankan perintah berikut:
 
 ![Screenshot from 2024-10-02 09-12-47](https://github.com/user-attachments/assets/7888068d-8885-4580-80fc-5e295023045f)
@@ -33,6 +35,7 @@ Jika output menampilkan "Aktif: aktif (berjalan)", artinya layanan SSH sudah ber
 
 ![Screenshot from 2024-10-02 09-16-20](https://github.com/user-attachments/assets/27a2b47d-8829-4e8e-98a0-ab1257e6bf4a)
 
+
 Langkah 4 Konfigurasikan firewall;
 Sebelum mencoba koneksi ke server melalui SSH, pastikan firewall sudah dikonfigurasi dengan benar. Jika UFW sudah terpasang, gunakan perintah berikut untuk memeriksa:
 
@@ -41,6 +44,7 @@ Sebelum mencoba koneksi ke server melalui SSH, pastikan firewall sudah dikonfigu
 Jika output menunjukkan bahwa lalu lintas SSH diizinkan, berarti konfigurasi sudah benar. Namun, jika belum, perintah berikut bisa digunakan untuk membuka akses SSH:
 
 ![Screenshot from 2024-10-02 09-19-25](https://github.com/user-attachments/assets/33461416-616d-4ae2-80df-5242a22319c7)
+
 
 Langkah 5 Koneksi ke server;
 Setelah semua langkah sebelumnya selesai, kini bisa mencoba masuk ke server menggunakan SSH. Diperlukan alamat IP atau nama domain server serta username yang ada di server tersebut. Gunakan perintah ini untuk menghubungkan:
